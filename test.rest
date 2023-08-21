@@ -1,0 +1,14 @@
+# REQ 1
+GET  http://localhost:8080/students
+
+
+# REQ 2
+POST  http://localhost:8080/students
+Content-Type: application/json
+{
+    "name": "allen"
+}
+
+
+# REQ 3
+DELETE POST  http://localhost:8080/students/uuid
